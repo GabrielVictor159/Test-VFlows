@@ -21,26 +21,37 @@ $name: 'Login';
             font-size: 25px;
             font-family:Arial, Helvetica, sans-serif;
         }
+        .#{$name}_container_input{
+            display: flex;
+            flex-direction: column;
         .#{$name}_titulo_input{
            @include TituloInput(20px);
         }
         .#{$name}_input{
             width: $width*0.5;
-            height: 20px;
+            height: 25px;
         }
-        button{
-            width: 40%;
-            height: 35px;
-            color: white;
-            background-color: rgb(1, 160, 1);
-            border: none;
-            box-shadow: 3px 3px 3px rgba($color: #000000, $alpha: 0.4);
-            opacity: 1;
-            transition: all 0.5s;
-            cursor: pointer;
-            &:hover{
-                opacity: 0.6;
+        .#{$name}_Form{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            button{
+                width: 80%;
+                height: 35px;
+                color: white;
+                background-color: rgb(1, 160, 1);
+                border: none;
+                box-shadow: 3px 3px 3px rgba($color: #000000, $alpha: 0.4);
+                opacity: 1;
+                transition: all 0.5s;
+                cursor: pointer;
+                &:hover{
+                    opacity: 0.6;
+                }
             }
         }
+        
+    }
     }
 }

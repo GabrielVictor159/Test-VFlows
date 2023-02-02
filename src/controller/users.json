@@ -1,0 +1,51 @@
+[
+    {
+        "cnpj":"14.507.334/2283-40",
+        "Razao_Social":"Razão Social do Fornecedor Logado",
+        "Nome_Fantasia":"Nome Fantasia do Fornecedor Logado",
+        "contracts":
+        [
+            {
+                "titulo":"Titulo do primeiro contrato de exemplo",
+                "codigo":"11002200-01",
+                "retencao":"5%"
+            },
+            {
+                "titulo":"Titulo do segundo contrato de exemplo",
+                "codigo":"11002200-02",
+                "retencao":"10%"
+            },
+            {
+                "titulo":"Titulo do terceiro contrato de exemplo",
+                "codigo":"11002200-01",
+                "retencao":"5%"
+            },
+            {
+                "titulo":"Titulo do quarto contrato de exemplo",
+                "codigo":"11002200-01",
+                "retencao":"15%"
+            },
+            {
+                "titulo":"Titulo do quinto contrato de exemplo",
+                "codigo":"11002200-01",
+                "retencao":"5%"
+            },
+            {
+                "titulo":"Titulo do sexto contrato de exemplo",
+                "codigo":"11002200-01",
+                "retencao":"15%"
+            },
+            {
+                "titulo":"Titulo do sétimo contrato de exemplo",
+                "codigo":"11002200-01",
+                "retencao":"5%"
+            },
+            {
+                "titulo":"Titulo do oitavo contrato de exemplo",
+                "codigo":"11002200-01",
+                "retencao":"10%"
+            }
+        ]
+
+    }
+]

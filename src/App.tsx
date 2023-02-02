@@ -1,16 +1,20 @@
-import { useState } from 'react'
+import React, { createContext, Dispatch, SetStateAction, useState } from 'react';
 import './styles/App.scss'
-import * as React from 'react'
 import { Route, Routes } from 'react-router'
 import Login from './pages/Login'
-
-const App = (props:any) => {
-  
+import PaymentFornecedor from './pages/PaymentFornecedor';
+export const UserContext = createContext<any>('');
+const App = (props: any) => {
+  const [user, setUser] = useState('');
 
   return (
- <Routes>
-  <Route path="/" element={<Login />}/>
- </Routes>
+    <UserContext.Provider value={{ user, setUser }}>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path='/PaymentFornecedor' element={<PaymentFornecedor />}/>
+      </Routes>
+    </UserContext.Provider>
+
   )
 }
 
