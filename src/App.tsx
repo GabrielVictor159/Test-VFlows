@@ -1,4 +1,4 @@
-import React, { createContext, Dispatch, SetStateAction, useState } from 'react';
+import React, { createContext, useState } from 'react';
 import './styles/App.scss'
 import { Route, Routes } from 'react-router'
 import Login from './pages/Login'

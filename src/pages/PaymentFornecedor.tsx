@@ -10,7 +10,7 @@ import "../styles/PaymentFornecedor.scss";
 const name = 'PaymentFornecedor'
 
 
-export default function PaymentFornecedor(props: any) {
+export default function PaymentFornecedor() {
 
     const { user, setUser } = useContext(UserContext);
     const {contrato, setContrato} = useContext(ContratoContext);

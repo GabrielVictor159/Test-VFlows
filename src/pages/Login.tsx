@@ -8,9 +8,10 @@ import { cnpj } from 'cpf-cnpj-validator';
 import { UserContext } from "../App";
 import Logar from "../components/functions/Logar";
 import { useNavigate } from 'react-router-dom';
+
 const name = 'Login'
 
-export default function Login(props: any) {
+export default function Login() {
     const { user, setUser } = useContext(UserContext);
     let navigate = useNavigate();
     function handleSubmit(data: any) {
