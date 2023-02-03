@@ -6,7 +6,7 @@ import PaymentFornecedor from './pages/PaymentFornecedor';
 import Contract from './pages/Contract';
 export const UserContext = createContext<any>('');
 export const ContratoContext = createContext<any>('');
-const App = (props: any) => {
+const App = () => {
   const [user, setUser] = useState('');
   const [contrato, setContrato] = useState('');
   return (

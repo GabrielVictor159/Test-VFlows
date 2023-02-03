@@ -24,7 +24,6 @@ export default function PaymentFornecedor() {
 
     const getUserContracts = (cnpj) => {
         const user = Logar(cnpj);
-        console.log(user)
         if (user) {
             return (
                 mapContractsPage(user, handleSubmit, navigate)
@@ -128,8 +127,8 @@ const mapContractsPage = (user, handleSubmit, navigate) => {
 
                 <br />
                 <div className={`${name}_box_containerButtons`}>
-                    <button onClick={e => navigate('/')} style={{ backgroundColor: 'rgb(252, 227, 0)' }} >Anterior</button>
-                    <button onClick={e => handleSubmit(selects)} style={{ backgroundColor: 'rgb(0, 165, 36)' }}>Próximo</button>
+                    <button onClick={e => navigate('/')} style={{ backgroundColor: '#EDA701' }} >Anterior</button>
+                    <button onClick={e => handleSubmit(selects)} style={{ backgroundColor: '#007E1B' }}>Próximo</button>
                 </div>
                 <div className={`${name}_box_containerLogo`}>
                     <img className={`${name}_box_logo`} src="/logo.png" />
