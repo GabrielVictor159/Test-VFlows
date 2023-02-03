@@ -31,7 +31,9 @@ export default function Login(props: any) {
   
     return (
         <>
+        
             <main className={`${name}_body`}>
+            <br /><br />
                 <div className={`${name}_box`}>
                     <img src={'/logo.png'} />
                     <br />

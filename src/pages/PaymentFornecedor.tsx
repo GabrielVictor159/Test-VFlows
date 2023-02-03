@@ -75,7 +75,9 @@ const mapContractsPage = (user, handleSubmit, navigate) => {
     }
 
     return (
+        <>
         <main className={`${name}_body`}>
+        <br /><br />
             <div className={`${name}_box`}>
                 <PaymentHeader RazaoSocial={user.Razao_Social} NomeFantasia={user.Nome_Fantasia} Cnpj={user.cnpj} NomePagina={'Contratos Vinculados'} />
                 <div className={`${name}_box_tableContainer`}>
@@ -137,6 +139,8 @@ const mapContractsPage = (user, handleSubmit, navigate) => {
                 </div>
 
             </div>
+            <br /> <br />
         </main>
+        </>
     );
 }
