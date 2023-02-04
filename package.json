@@ -9,9 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@sideway/address": "^5.0.0",
+    "@sideway/formula": "^3.0.1",
+    "@sideway/pinpoint": "^2.0.0",
     "@unform/core": "^2.1.6",
     "@unform/web": "^2.1.6",
     "cpf-cnpj-validator": "^1.0.3",
+    "joi": "^17.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-input-mask": "^2.0.4",
