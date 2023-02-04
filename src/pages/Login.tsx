@@ -2,7 +2,7 @@ import { Form } from "@unform/web";
 import React, { useContext } from "react";
 import Inputs from "../components/Inputs";
 import "../styles/Login.scss";
-import Input from "../components/input";
+import Input from "../components/Input";
 import InputMask from 'react-input-mask';
 import { cnpj } from 'cpf-cnpj-validator'; 
 import { UserContext } from "../App";

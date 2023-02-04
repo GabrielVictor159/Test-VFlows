@@ -2,7 +2,6 @@ import { Form } from "@unform/web";
 import React, { useContext, useEffect, useLayoutEffect, useState } from "react";
 import { ContratoContext, UserContext } from "../App";
 import Logar from "../components/functions/Logar";
-import Input from "../components/input";
 import PaymentHeader from "../components/PaymentHeader";
 import { useNavigate } from 'react-router-dom';
 import "../styles/PaymentFornecedor.scss";

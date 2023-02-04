@@ -4,7 +4,7 @@ import PaymentHeader from "../components/PaymentHeader";
 import "../styles/Contract.scss";
 import { Form } from "@unform/web";
 import Inputs from "../components/Inputs";
-import Input from "../components/input";
+import Input from "../components/Input";
 import InputMask from 'react-input-mask';
 import InputDate from "../components/InputDate";
 import InputMoney from "../components/InputMoney";
